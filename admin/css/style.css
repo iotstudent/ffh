@@ -1,0 +1,66 @@
+body {
+    font-family: Raleway !important;
+}
+.btn-brand {
+    background-color:#212246 !important;
+    border:1px solid #212246 !important;
+    color:#F9F9FA !important;
+}
+.bg-brand {
+    background-color:#212246 !important;
+    border:1px solid #212246 !important;
+}
+.bg-brand--sec {
+    background-color:#721922 !important;
+    border:1px solid #721922 !important;
+}
+.bg-set {
+    background-color:#F9F9FA;
+    
+}
+.inner-form{
+    border:1px solid #721922 !important;
+}
+.right {
+    float: right !important;
+    display: inline !important;
+}
+.left {
+    float: left !important;
+    display: inline !important;
+}
+.span-right {
+    float: right !important;
+}
+.span-left {
+    float: left !important;
+}
+
+.img-sm{
+    max-width: 8% !important; 
+}
+.img-nm {
+    max-width:25% !important;
+}
+.img-md{
+    max-width: 100% !important; 
+}
+
+
+.kpi-box {
+    border:1px solid #721922 !important;
+}
+.kpi-box--green {
+    background-color:#008080 !important;
+}
+.kpi-box--brown {
+    background-color:#800000 !important;
+}
+.kpi-box--orange {
+    background-color: #ffa500 !important;
+}
+
+.top-nav {
+    padding:15px !important;
+}
+

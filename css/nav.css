@@ -1,0 +1,14 @@
+.navbar-brand img {
+  width: 110px;
+  margin-top: 5px;
+}
+.proj{
+  margin-left: 175px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+}

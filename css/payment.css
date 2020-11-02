@@ -1,0 +1,59 @@
+.nav-link {
+  color: #222 !important;
+}
+
+.payment-type {
+  /* background-color: #cfffcc; */
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.payment-type h2 {
+  color: #721922;
+  font-weight: bold;
+}
+
+.payment-type i {
+  color: #721922;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.payment-type h5 {
+  color: #222;
+  margin-top: 10px;
+}
+
+/* form */
+
+form {
+  padding: 20px 50px;
+  -webkit-box-shadow: -1px 4px 32px -1px rgba(204, 204, 204, 1);
+  -moz-box-shadow: -1px 4px 32px -1px rgba(204, 204, 204, 1);
+  box-shadow: -1px 4px 32px -1px rgba(204, 204, 204, 1);
+}
+
+.form-container h2 {
+  margin-top: 20px;
+  color: #212246;
+  font-weight: bold;
+}
+.form-container h4{
+  color: #212246;
+  font-weight: bold;
+}
+
+.btn-primary {
+  width: 150px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #901d28;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-check #exampleCheck1 {
+  margin-top: 10px;
+}

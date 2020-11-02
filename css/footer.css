@@ -1,0 +1,168 @@
+footer {
+  background-color: #0F101C;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+footer .logo {
+  width: 200px;
+  margin-top: 50px;
+}
+
+footer .social {
+  margin-top: 5px;
+}
+
+.social .fab {
+  color: #fff;
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+footer .left1 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer .left1 a:hover {
+  color: #ccc;
+}
+
+footer .left2 h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .left2 {
+  margin-left: 50px;
+}
+
+.footer-link {
+  font-size: 13px;
+  color: #fff;
+  /* font-weight: 600; */
+}
+
+footer p {
+  padding-top: 5px;
+}
+
+footer input {
+  color: #eee;
+  display: block;
+  font-size: 13px;
+  width: 460px;
+  padding: 15px;
+  background-color: transparent;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden;
+  margin-bottom: 20px;
+  border-bottom-color: #eee;
+  padding-left: 0;
+}
+
+footer ::placeholder {
+  color: #eee;
+  opacity: 1;
+}
+
+footer form .btn {
+  font-size: 14px;
+  background-color: #901d28;
+  color: #eee;
+  border-radius: 4px;
+  padding: 10px;
+  width: 150px !important;
+  border: none;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+footer hr {
+  border: 1px solid rgb(139, 138, 138);
+  width: 95%;
+  margin-top: 20px;
+}
+
+.copyright .second {
+  padding-left: 221px;
+}
+
+.copyright h5 {
+  color: #eee;
+  font-size: .8em;
+  margin-top: 5px;
+}
+
+.copyright h5 span {
+  color: #a8a8ac;
+}
+
+@media screen and (max-width: 1025px) {
+  footer .left2 {
+    margin-left: 50px;
+  }
+  footer input {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  footer {
+    padding-top: 50px;
+  }
+  footer .left2 {
+    margin-left: 0;
+  }
+  footer input {
+    width: 310px;
+  }
+  .copyright .second {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: -20px;
+  }
+  footer .logo {
+    width: 200px;
+    margin-top: -20px;
+  }
+  footer .left {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  footer .left2 {
+    margin-top: 30px;
+  }
+  form {
+    margin-top: 20px;
+  }
+  .copyright {
+    margin-top: -20px;
+  }
+  .copyright h5 {
+    font-size: .7em;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 376px){
+  footer input{
+    width: 250px;
+  }
+}

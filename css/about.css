@@ -1,0 +1,182 @@
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  width: 80px;
+  background-color: #721922;
+}
+
+.vision {
+  margin-top: -150px;
+}
+
+.mission {
+  margin: 0 auto;
+}
+
+.vision img, .mission img {
+  width: 80%;
+}
+
+.vision p {
+  margin-top: -10px;
+  width: 70%;
+}
+
+.vision .left img {
+  margin-top: 27px;
+}
+
+.ftco-no-pt {
+  margin-top: 100px;
+}
+
+.ftco-no-pt img {
+  width: 80%;
+}
+
+.btn-link {
+  background-color: #721922;
+  color: #fff;
+  width: 100px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #881924;
+}
+
+.works {
+  margin-top: 80px;
+}
+
+.works img, .funding img, .profit img {
+  width: 80%;
+}
+
+.works h2 {
+  font-weight: bold;
+}
+
+.works .para, .funding .para, .profit .para {
+  width: 80%;
+}
+
+.works .sect {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.funding, .profit {
+  margin-top: 50px;
+  /* margin-left: 160px; */
+}
+
+.testimony {
+  margin-top: -150px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .history__item.left__item .history__date {
+    right: -87px;
+  }
+  .history__item .history__date {
+    width: 70px;
+  }
+  .history__item .history__date {
+    left: -87px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .history__item.left__item .history__date {
+    right: -67px;
+  }
+  .history__item .history__date {
+    width: 50px;
+    left: -67px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .works {
+    margin-left: -20px;
+  }
+  .funding, .profit {
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .works img, .profit img, .funding img {
+    width: 100%;
+  }
+  .funding .para, .profit .para, .works .para {
+    width: 100%;
+  }
+  .history__item .history__date {
+    display: none;
+  }
+  .history__item.left__item .history__date {
+    display: none;
+  }
+  .history__content::after {
+    display: none;
+  }
+  .history__item.left__item {
+    text-align: left;
+  }
+  .history__item {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .history {
+    padding-bottom: 50px;
+  }
+  .section-title.history-title {
+    margin-bottom: 55px;
+  }
+  .history__item h4 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .history__item.mb-0 {
+    margin-bottom: 50px !important;
+  }
+  .history__item.right__first__item {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .works {
+    margin-left: -27px;
+    margin-top: 20px;
+  }
+  .works h3 {
+    margin-top: 20px;
+  }
+  .works h2 {
+    margin-left: 50px;
+  }
+  .profit, .funding {
+    margin-left: -1px;
+  }
+  .funding h3 {
+    margin-top: -30px;
+  }
+  .profit h3 {
+    margin-top: 30px;
+  }
+}
